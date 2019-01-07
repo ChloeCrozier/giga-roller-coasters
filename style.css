@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+body {
+  text-align: center;
+  background-size: 100vw 160vh;
+  font-size: 17px;
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+}
+
+.home {
+  background-image: url('./images/home.jpg');
+}
+
+.fury {
+  background-image: url('./images/fury.jpg');
+}
+
+.intimidator {
+  background-image: url('./images/intimidator.jpg');
+}
+
+.steeldragon {
+  background-image: url('./images/steel-dragon.jpg');
+}
+
+.leviathan {
+  background-image: url('./images/leviathan.jpg');
+}
+.millenniumforce {
+  background-image: url('./images/millenniumforce.jpg');
+}
+
+
+.box {
+  width: 500px;
+  border: 3px solid black;
+  margin: 13% auto 0 auto;
+  background-color: white;
+  padding: 10px;
+}
+
+
+.style {
+  border: 2px solid black;
+  padding:13px;
+  margin: 8px;
+}
+
+.top {
+  top: 0;
+  left: 0;
+  background-color: white;
+  border: 3px solid black;
+  width: 100%;
+  line-height: 30px;
+  padding: 20px;
+  position: fixed;
+  text-align: center;
+}
+
+.top a {
+  padding: 6px 12px;
+}
+.box table {
+  margin: 20px auto;
+  width: 100%;
+}
+
+.top .active {
+  font-weight: bold;
+}
