@@ -6,9 +6,10 @@ body {
   font-size: 17px;
   font-family: 'Quicksand', sans-serif;
   margin: 0;
+  
 }
 
-.home {
+.giga {
   background-image: url('./images/home.jpg');
 }
 
@@ -31,13 +32,27 @@ body {
   background-image: url('./images/millenniumforce.jpg');
 }
 
+.strata {
+  background-image: url('./images/strata.jpg');
+}
+
+.thrill {
+  background-image: url('./images/thrill.jpg');
+}
+
+.ka {
+  background-image: url('./images/king.jpg');
+}
+
 
 .box {
-  width: 500px;
+  width: 540px;
   border: 3px solid black;
   margin: 13% auto 0 auto;
   background-color: white;
   padding: 10px;
+  opacity: 0.93;
+  border-radius: 8px;
 }
 
 
@@ -57,16 +72,25 @@ body {
   padding: 20px;
   position: fixed;
   text-align: center;
+  opacity: 0.96;
 }
 
-.top a {
+ a {
   padding: 6px 12px;
-}
+  text-decoration: none;
+  }
+
 .box table {
   margin: 20px auto;
   width: 100%;
 }
 
-.top .active {
+.top .active, 
+.menu .active{  
+  text-decoration: underline;
+}
+
+
+a:hover{
   font-weight: bold;
 }
